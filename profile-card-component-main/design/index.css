@@ -1,0 +1,78 @@
+:root{
+    --body-color:hsl(229, 23%, 23%);
+    --bg-color:hsl(227, 10%, 46%);
+    --cyan-color:hsl(185, 75%, 39%);
+    --dark-gray:hsl(0, 0%, 59%);
+}
+
+html{
+    box-sizing: border-box;
+}
+body{
+    font-size:18px;
+    background-color: var(--dark-gray);
+  
+}
+.card-container{
+    background-color: var(--cyan-color);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    
+}
+.profilecard{
+    /* border: 1px solid orange; */
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 5px white;
+    
+
+}
+.me{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+#my-image{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position:relative;
+    top: -10%;
+    left: 30%;
+}
+.pattern{
+    background-color: cyan;
+    width: 100%;
+    height: 80px;
+    border-radius: 20px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+article{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
